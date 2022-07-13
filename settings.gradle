@@ -1,2 +1,3 @@
-rootProject.name = 'packaging-example'
+rootProject.name = 'packaging-practice'
+include 'case-1'
 

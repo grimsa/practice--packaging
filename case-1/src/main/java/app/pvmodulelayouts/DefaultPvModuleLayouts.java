@@ -1,11 +1,11 @@
-package com.company.app.pvmodulelayouts;
+package app.pvmodulelayouts;
 
-import com.company.app.PvModuleDefinition;
-import com.company.app.PvModuleLayouts;
-import com.company.app.PvModulePosition;
-import com.company.app.RoofFace;
-import com.company.app.pvmodulelayouts.layoutspecification.PvModulesMountedOnRoofFacePlaneLayoutSpecification;
-import com.company.app.pvmodulelayouts.layoutspecification.PvModulesMountedOnTiltedRacksLayoutSpecification;
+import app.PvModuleDefinition;
+import app.PvModuleLayouts;
+import app.PvModulePosition;
+import app.RoofFace;
+import app.pvmodulelayouts.layoutspecification.PvModulesMountedOnRoofFacePlaneLayoutSpecification;
+import app.pvmodulelayouts.layoutspecification.PvModulesMountedOnTiltedRacksLayoutSpecification;
 
 import java.util.List;
 import java.util.stream.Stream;

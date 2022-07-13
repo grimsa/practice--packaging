@@ -1,6 +1,6 @@
-package com.company.app.pvmodulelayouts;
+package app.pvmodulelayouts;
 
-import com.company.app.PvModulePosition;
+import app.PvModulePosition;
 
 import java.util.stream.Stream;
 

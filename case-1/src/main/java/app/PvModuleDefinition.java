@@ -1,4 +1,4 @@
-package com.company.app;
+package app;
 
 /**
  * Defined attributes common to all instances of physical PV modules (think manufacturer-published datasheet of a specific PV module product)

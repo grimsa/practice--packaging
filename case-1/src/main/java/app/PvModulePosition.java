@@ -1,4 +1,4 @@
-package com.company.app;
+package app;
 
 /**
  * Location in space of a single physical PV module

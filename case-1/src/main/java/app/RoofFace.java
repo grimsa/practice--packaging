@@ -1,4 +1,4 @@
-package com.company.app;
+package app;
 
 /**
  * A single plane of the roof
