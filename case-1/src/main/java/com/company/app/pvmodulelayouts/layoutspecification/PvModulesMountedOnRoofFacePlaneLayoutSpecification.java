@@ -13,10 +13,10 @@ import java.util.stream.Stream;
  * Let's assume the logic is that PV modules are always mounted individually and in portrait orientation.
  * (i.e. the unit of placement (layout tile) is a single PV module in portrait orientation)
  */
-public class PvModulesMountedOnRoofFacePlaneLayoutSpecification implements LayoutSpecification {
+class PvModulesMountedOnRoofFacePlaneLayoutSpecification implements LayoutSpecification {
     private final PvModuleDefinition pvModuleDefinition;
 
-    public PvModulesMountedOnRoofFacePlaneLayoutSpecification(PvModuleDefinition pvModuleDefinition) {
+    PvModulesMountedOnRoofFacePlaneLayoutSpecification(PvModuleDefinition pvModuleDefinition) {
         this.pvModuleDefinition = pvModuleDefinition;
     }
 
