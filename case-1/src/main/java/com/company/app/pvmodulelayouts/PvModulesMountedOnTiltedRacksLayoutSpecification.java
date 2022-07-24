@@ -1,9 +1,7 @@
-package com.company.app.pvmodulelayouts.layoutspecification;
+package com.company.app.pvmodulelayouts;
 
 import com.company.app.PvModuleDefinition;
 import com.company.app.PvModulePosition;
-import com.company.app.pvmodulelayouts.LayoutSpecification;
-import com.company.app.pvmodulelayouts.LayoutTile;
 
 import java.util.stream.Stream;
 
