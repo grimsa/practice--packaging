@@ -13,10 +13,10 @@ import java.util.stream.Stream;
  * Let's assume the logic is that PV modules are always mounted in rows of 3 in landscape orientation
  * (i.e. the unit of placement (layout tile) is a group of 3 PV modules in landscape orientation)
  */
-public class PvModulesMountedOnTiltedRacksLayoutSpecification implements LayoutSpecification {
+class PvModulesMountedOnTiltedRacksLayoutSpecification implements LayoutSpecification {
     private final PvModuleDefinition pvModuleDefinition;
 
-    public PvModulesMountedOnTiltedRacksLayoutSpecification(PvModuleDefinition pvModuleDefinition) {
+    PvModulesMountedOnTiltedRacksLayoutSpecification(PvModuleDefinition pvModuleDefinition) {
         this.pvModuleDefinition = pvModuleDefinition;
     }
 
